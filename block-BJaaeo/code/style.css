@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+main {
+    text-align: center;
+}
+.main-display {
+    color: white;
+    background: black;
+    width: 20rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    text-align: right;
+    padding: 0.5rem;
+    padding-top: 0.8rem;
+    padding-right: 1rem;
+    border-radius: 0.2rem;
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    margin: 0.5rem 0.144em;
+    width: 4.8rem;
+    height: 4rem;
+    font-size: 1.2rem;
+}
+
+.equals {
+    width: 21rem;
+}
