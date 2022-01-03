@@ -1,0 +1,61 @@
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+body {
+  padding-top: 5rem;
+}
+.container {
+  margin-left: 40%;
+}
+small {
+  margin: 0.6rem 0rem;
+  font-size: 10px;
+  color: black;
+}
+
+label {
+  display: block;
+  margin: 0.4rem 0rem;
+}
+button {
+  margin-top: 0.6rem;
+  text-align: center;
+}
