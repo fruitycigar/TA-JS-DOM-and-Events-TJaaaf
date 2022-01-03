@@ -1,0 +1,24 @@
+
+/* Custom styling */
+
+main {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+.icons {
+    padding: 2rem 0;
+}
+span {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+}
+i {
+    font-size: 4rem;
+    margin: 0 20px;
+}
+.selected {
+    color: red;
+}
