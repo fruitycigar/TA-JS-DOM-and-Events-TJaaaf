@@ -91,3 +91,11 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+
+.close {
+  display: none;
+}
+
+.open {
+  background-color: black;
+}
