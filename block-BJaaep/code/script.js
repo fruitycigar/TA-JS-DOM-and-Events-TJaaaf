@@ -13,9 +13,12 @@ firstBoxes.forEach((box, index) => {
 let secondBox = document.querySelector(".second");
 
 secondBox.addEventListener('click', (event) => {
-    event.target.innerText = Number(event.target.dataset.text);
-
-    setTimeout(() => {
-        event.target.innerText = ""; 
-    }, 5000)
+    console.log(event.target);
+    if (event.target.classList.contains('box')) {
+        event.target.innerText = Number(event.target.dataset.text);
+    
+        setTimeout(() => {
+            event.target.innerText = ""; 
+        }, 5000)
+    }
 })
