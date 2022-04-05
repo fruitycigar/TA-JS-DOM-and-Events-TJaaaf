@@ -25,3 +25,4 @@ secondBoxes.addEventListener('click', (event) => {
         }, 1000)
     }
 });
+
